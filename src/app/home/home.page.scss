@@ -1,0 +1,100 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+ion-button{
+  text-transform:none;
+  font-size: 14px;
+  font-weight: 550;
+  padding: 0 2px;
+}
+
+
+.logo{
+  
+  height: 8vh;
+  width: auto;
+  margin-left:3%;
+  margin-top: 8%;
+}
+.capa{
+  height: 61vh;
+  width: auto;
+  margin-left:0%;
+  margin-top: 0%;
+}
+ion-content{
+  --ion-background-color:#FFF7EF;
+ 
+ 
+}
+
+ion-toolbar{
+  height: 60pt
+}
+
+ion-card-title{
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 15%;
+  transform: translateY(-50%);
+
+}
+
+ul{
+  list-style: none;
+}
+ion-footer{
+  background-color: #F3E8DE;
+  bottom:0;
+  padding: 50px 0;
+}
+.container{
+  max-width: 1420px;
+  background-color: #F3E8DE;
+  margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Nunito, Tahoma, sans-serif;
+}
+.footer-col{
+  width: 20%;
+  padding: 0 15px;
+}
+
+.footer-col h4{
+  font-size: 17px;
+  color:#363636;
+  margin-bottom: 20px;
+  font-family: Solway, Tahoma, sans-serif;
+  font-weight: 1000;
+  position: relative;
+}
+
+.footer-col h4::before{
+  content: '';
+  position:absolute;
+  bottom: -10px;
+  background-color: #363636;
+  height: 2px;
+  box-sizing: border-box;
+  width: 40px;
+}
+
+.footer-col ul li:not(:last-child){
+  margin-bottom: 15px;
+}
+
+.footer-col ul li a{
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+}
+
